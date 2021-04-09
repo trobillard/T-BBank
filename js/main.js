@@ -1,6 +1,4 @@
-
-
-  const loginPopup = document.querySelector(".security-popup");
+const loginPopup = document.querySelector(".security-popup");
   const close = document.querySelector(".close");
 
 
