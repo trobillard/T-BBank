@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>TㅆB New Account</title>
+  <title>TㅆB Bank</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -27,43 +27,21 @@
 
   <nav class="navbar navbar-expand-lg navbar-light bg-white">
     <div class="container-fluid">
-      <a class="navbar-brand" href="homepage.html"><img src="img/bl.jpg"></a>
+      <a class="navbar-brand" href="index.html"><img src="img/bl.jpg"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="News.html">News</a>
+            <a class="nav-link active" aria-current="page" href="Newsnonlog.html">News</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Stats.html">Stats</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="BO.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Bank Operation
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="NewAccount.html">New Account</a></li>
-              <li><a class="dropdown-item" href="Wiretransfer.html">Wire Transfer</a></li>
-              <li><a class="dropdown-item" href="withdrawal.html">Withdrawal</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="Contactus.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Contact Us
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="Contactus.html">Contact Us</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="FAQ.html">FAQ</a></li>
-            </ul>
+            <a class="nav-link" href="Statsnonlog.html">Stats</a>
           </li>
         </ul>
       </div>
-      <a href="index.html" class="button" id="button">Logout</a>
-    </div>
-      </div>
+      <a href="login.html" class="button" id="button">Login</a>
     </div>
   </nav>
 
@@ -74,32 +52,24 @@
     </section>
   </header>
 
-  <main class="container">
-    <h2>Open a New Account</h2>
-    <form class="mt-5 fullForm" method="post" action="">
-      <div class="form-group">
-        <label for="countType">Account</label>
-        <select class="form-control" id="countType" name="countType">
-          <option value="courant">Current account</option>
-          <option value="livreta">Savings account</option>
-          <option value="pel">Salary account</option>
-          <option value="pea">Insurance account</option>
-        </select>
-    </div>
-    <div class="form-group">
-      <label for="amount">Amount</label>
-      <input type="number" name="amount" id="amount" min="20 000" value="20 000">
-    </div>
-    <div class="text-center">
-      <button type="submit" class="btn btn-warning">Open my account</button>
-    </div>
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
-      <label class="form-check-label" for="flexCheckDefault">
-        I accept Terms and Conditions
-      </label>
-    </div>
-  </form>
+  <main class="container mt-5 py-5">
+    <section class="text-center">
+      <form class="box" action="index.html" method="post">
+        <div>
+        <h2>Login</h2>
+      </div>
+      <div class="text-center">
+        <input type="text" name="" placeholder="Username" required>
+      </div>
+      <div class="text-center">
+        <input type="password" name="" placeholder="Password" required>
+      </div>
+      <div class="text-center">
+        <a href="homepage.html"><button" class="btn btn-outline-warning">Login</button></a>
+      </div>
+      </div>
+      </form>
+    </section>
   </main>
 
 

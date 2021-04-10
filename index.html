@@ -24,46 +24,25 @@
 </head>
 
 <body>
-
   <nav class="navbar navbar-expand-lg navbar-light bg-white">
     <div class="container-fluid">
-      <a class="navbar-brand" href="homepage.html"><img src="img/bl.jpg"></a>
+      <a class="navbar-brand" href="index.html"><img src="img/bl.jpg"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="News.html">News</a>
+            <a class="nav-link active" aria-current="page" href="Newsnonlog.html">News</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Stats.html">Stats</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="BO.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Bank Operation
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="NewAccount.html">New Account</a></li>
-              <li><a class="dropdown-item" href="Wiretransfer.html">Wire Transfer</a></li>
-              <li><a class="dropdown-item" href="withdrawal.html">Withdrawal</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="Contactus.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Contact Us
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="Contactus.html">Contact Us</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="FAQ.html">FAQ</a></li>
-            </ul>
+            <a class="nav-link" href="Statsnonlog.html">Stats</a>
           </li>
         </ul>
       </div>
+      <a href="login.html" class="button" id="button">Login</a>
     </div>
   </nav>
-
   <header class="maincolor text-white py-5">
     <section class="container text-center">
       <h1>TㅆB BANK</h1>
@@ -72,23 +51,44 @@
   </header>
 
   <main class="container mt-5 py-5">
-    <section class="text-center">
-      <form class="box" action="index.html" method="post">
-        <div>
-        <h2>Login</h2>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
-      <div class="text-center">
-        <input type="text" name="" placeholder="Username" required>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <img src="img/slide.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Life Insurance</h5>
+            <p>Life insurance offers you Long-term Savings which will give huge benefit later,feel allowed to make inquiry.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="img/slide1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Speculate</h5>
+            <p>In practical life we are compelled to follow what is most probable ; in speculative thought we are compelled to follow truth.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/slide2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Loans</h5>
+            <p>As my father used to say: "There are two sure ways to lose a friend, one is to borrow, the other to lend.</p>
+          </div>
+        </div>
       </div>
-      <div class="text-center">
-        <input type="password" name="" placeholder="Password" required>
-      </div>
-      <div class="text-center">
-        <a href="homepage.html"><button" class="btn btn-outline-warning">Login</button></a>
-      </div>
-      </div>
-      </form>
-    </section>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
   </main>
 
 
@@ -96,7 +96,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/index.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
