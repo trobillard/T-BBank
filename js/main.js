@@ -28,3 +28,5 @@ const loginPopup = document.querySelector(".security-popup");
   close.addEventListener("click",function(){
     loginPopup.classList.remove("show");
   })
+
+  
